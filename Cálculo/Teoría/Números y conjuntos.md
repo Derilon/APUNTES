@@ -1,0 +1,61 @@
+- ${}\mathbb{N}\subsetneq \mathbb{Z}\subsetneq \mathbb{Q}\subsetneq \mathbb{R}\subsetneq \mathbb{C}{}$
+- ${}\varnothing\to \text{conjunto vacio, } \varnothing\subseteq A, \ A\subseteq A\to \text{conjuntos impropios} {}$
+
+**Operaciones con conjuntos**
+$$
+\begin{array}{1}
+A \cup B=\{x|x \in A \ ó \ x \in  B\} \\
+A-B=\{x \in  A\ \ y\ \notin B \} \\
+A \cap B = \{x \in A \ y \ x \in  B\} \\
+A\subset X,A^{c}=\{x \in  X |x \notin A\} \\ \\
+
+
+\begin{cases}
+A=\{a,b,c,d\} \\
+B=\{1,2,3\} \\
+
+ \end{cases} \\
+ Ax B=\{(a,1),(a,2),(a,3),(b,1),(b,2),\dots\}
+\end{array}
+
+$$
+**Propiedades de conjuntos**
+	- Distributiva:   ${}A\cup(B\cap C)=(A\cup B)\cap(A\cup C) \ y \ A\cap(B\cup C)=(A\cap B)\cup(A\cap C){}$
+	- Leyes de Morgan: ${}(A \cup B)^{c}=A^{c}\cap B^{c},(A \cap B)^{c}=A^{c}\cup B^{c} {}$
+		* Para demostrarlas se toma un elemento ${}x \in X, x \notin A, x \notin B{}$
+
+**Aplicaciones entre conjuntos**
+	- Una aplicación es un proceso en el que a cada elemento de A se le asigna un elemento de B
+		* Ejemplo: Se le asigna una mesa a cada alumno
+
+**Aplicaciones suprayectivas (sobre)**
+	- Cada elemento de A tiene un elemento de B, no hay "huecos"
+		* Cada mesa tiene un alumno y cada alumno tiene una mesa
+	- Teniendo dos conjuntos, X e Y${}\text{, f sobre y}|y \in Y \exists x \in X \text{ con }f(x)=y{}$
+
+**Aplicaciones inyectivas**
+	- ${}\text{f inyectiva si }f(x_{1})=f(x_{2})\Rightarrow x_{1}=x_{2}{}$
+	- No hay dos elementos del primer conjunto que compartan un elemento asignado en el segundo
+
+‌	**Aplicaciones biyectivas**
+	- f es biyectiva si es inyectiva y suprayectiva
+	- Dos conjuntos tienen el mismo cardinal si hay biyección entre ellos
+	- La biyección es una propiedad de las aplicaciones, no de los conjuntos
+	- Un conjunto infinito se define como aquel que tiene un subconjunto propio con el mismo cardinal
+	- ${}\#\equiv \text{cardinal}{}$
+
+**Números naturales**
+	- Los naturales son el cardinal de un conjunto finito${}\to\#\{1,2,3\}=3{}$ ${}\#\mathbb{N}=\infty\text{ porque }f(n)=2n \text{ es una biyección entre }\mathbb{N}\text{ y el subconjunto de los pares}{}$
+**Órden en ${}\mathbb{N}{}$**
+	- Definición: ${}n_{1}\leq n_{2} \ si \ \exists A_{1},A_{2}|n_{1}=\#A_{1},n_{2}=\#A_{2}\text{ y }A_{1}\subseteq A_{2}{}$
+	- No hay ningún número entre n y n+1
+	- ${}a\leq b,c \in \mathbb{N}\implies a+b\leq b+c, \ ac\leq bc{}$
+
+**Números racionales y reales (especifidades respecto a los apuntes de matemática discreta)**
+	- Nota: Las raíces cuadradas de por sí son poisitivas 
+	- Reales:
+		- Completitud: Todo subconjunto no vacío ${}A\subset \mathbb{R}{}$ y acotado inferiormente tiene ínfimo, y todo subconjunto ${}A\subset \mathbb{R}{}$ acotado superiormente tiene supremo
+		- Cota superior: un número mayor que todos los elementos de A
+		- Cota inferior: Un número menor que todos los elementos de A
+		- Ínfimo: la mayor de las cotas inferiores de A
+		- Supremo: La menor de las cotas superiores de A

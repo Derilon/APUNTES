@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "a33dcf7a164908c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc76933c6e825ac7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b40347577c29e4f",
+            "type": "leaf",
+            "state": {
+              "type": "log-log",
+              "state": {},
+              "icon": "view-log",
+              "title": "Registro de Self-hosted LiveSync"
+            }
+          },
+          {
+            "id": "c066b22d5d6980a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calc_P2.1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Calc_P2.1"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ebc5bb5ad56ff0ac",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "4c63ce907461627a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Explorador de archivos"
+        }
+      },
+      {
+        "id": "2e027f34705a7be6",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Buscar"
+        }
+      },
+      {
+        "id": "1c8c6d2e58434bf7",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Etiquetas"
+        }
+      },
+      {
+        "id": "5c29ab068671888f",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "Todas las propiedades"
+        }
+      },
+      {
+        "id": "9c76b88f7d6051a3",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-bookmark",
+          "title": "Marcadores"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "2a5aaf8bf9fbc772",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e37dda80fccf60a6",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Calc_P2.1.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Enlaces entrantes"
+        }
+      },
+      {
+        "id": "924604846b1b099a",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Enlaces salientes"
+        }
+      },
+      {
+        "id": "6d7e8f5a5bc32a54",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Esquema"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-importer:Importar notas": false,
+      "obsidian-livesync:Replicate": false,
+      "obsidian-livesync:Show Log": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "obsidian-livesync:Mostrar sincronización de personalización": false
+    }
+  },
+  "active": "c066b22d5d6980a3",
+  "lastOpenFiles": [
+    "Calc_P2.1.ink.pdf",
+    "Álgebra lineal práctica primer tema.md",
+    "Práctica para parcial de cálculo - 2.2 y 2.3.md",
+    "Calc_P2.1.md",
+    "Práctica para parcial de cálculo - 2.2.md",
+    "Tema 2 ejercicios computadores.md",
+    "Álgebra lineal/Ejercicios/Tema 1/Álgebra línea prueba - 1.15 y 1.16 no inventado.md",
+    "Álgebra lineal/Ejercicios/Tema 1/Álgebra línea prueba - 1.15.md",
+    "Práctica para parcial de cálculo.ink.pdf",
+    "Práctica para parcial de cálculo.md",
+    "Álgebra lineal/Ejercicios/Tema 1/Álgebra lineal prueba - 1.9.md",
+    "Álgebra lineal/Ejercicios/Tema 1",
+    "Álgebra lineal/Ejercicios/Tema 1/Ejercicios álgebra 23 sept.md",
+    "Álgebra lineal/Ejercicios/Tema 1/Ejercicios clase álgebra 23-9.md",
+    "Álgebra línea prueba - 1.15.md",
+    "Álgebra línea prueba - 1.15.ink.pdf",
+    "Álgebra lineal/Ejercicios/Álgebra lineal prueba  - 1.14.ink.pdf",
+    "Álgebra lineal/Ejercicios/Tema 1/Álgebra lineal prueba  - 1.14.md",
+    "Álgebra lineal prueba  - 1.14.md",
+    "Portapapeles Código.md",
+    "Cálculo/Ejercicios/Ejercicios clase cálculo.md",
+    "Álgebra lineal/Ejercicios/Ejercicios álgebra 23 sept 1.md",
+    "Álgebra lineal/Teoría/Matrices.md",
+    "Álgebra lineal/Ejercicios/Tema 1/Ejercicios álgebra 28 sept.md",
+    "Cálculo/Ejercicios/Práctica examen parcial cálculo - 2.7 a.1.md",
+    "Cálculo/Ejercicios/Práctica examen parcial cálculo - 2.7 a.1.ink.pdf",
+    "Fundamentos de programación/Teoría/Identificadores, variables y constantes.md",
+    "Matemática discreta/Teoría/Conjuntos, funciones, etc....md",
+    "Cálculo/Ejercicios/Hoja 1 Cálculo.md",
+    "Tecnología de computadores/Teoría/Material Especificación de sistemas combinacionales/Pasted image 20260924184849.png",
+    "Identificadores, variables y constantes.md",
+    "Tecnología de computadores/Teoría/Material Especificación de sistemas combinacionales/Pasted image 20260924181808.png",
+    "Matemática discreta/Teoría/Números primos.md",
+    "Sin título.base",
+    ".handwriting/e126fdbb-a839-47b3-ae2d-f493420787d8.conflict-external-97a293714caef21e-outgoing.json",
+    ".handwriting/e126fdbb-a839-47b3-ae2d-f493420787d8.conflict-external-158778fb2d69138d-incoming.json",
+    ".handwriting/e126fdbb-a839-47b3-ae2d-f493420787d8.conflict-external-c980534d32e2e0a0-incoming.json",
+    ".handwriting/e126fdbb-a839-47b3-ae2d-f493420787d8.conflict-external-6e36d8919c5d92f7-incoming.json",
+    "Tecnología de computadores/Teoría/Material Especificación de sistemas combinacionales/Pasted image 20260922184713.png",
+    "Tecnología de computadores/Teoría/Material Especificación de sistemas combinacionales/Pasted image 20260922184159.png",
+    "Tecnología de computadores/Teoría/Pasted image 20260921123057.png"
+  ]
+}

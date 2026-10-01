@@ -1,0 +1,24 @@
+{
+  "secrets": {},
+  "outputLocations": {},
+  "outputSettings": {
+    "onenote": {
+      "folder": "/",
+      "attachments": {
+        "mode": "vault",
+        "path": ""
+      },
+      "duplicates": "update",
+      "saveSourceId": false,
+      "idProperty": "onenote-id",
+      "template": "",
+      "titleTemplate": "{{title}}"
+    }
+  },
+  "onenoteAttachments": {
+    "0-f218c6278c9b4d9caf3a160ffbe0df6a!1-8E2F1447B942ABFF!se40c0c6e1274452caac6956df80abaad\nvault\n\n": "Representación digital de la información image 244142dfadddf086.png",
+    "0-3721e0e9fc89422e845f4d0c23cfe5a8!1-8E2F1447B942ABFF!se40c0c6e1274452caac6956df80abaad\nvault\n\n": "Representación digital de la información image f196a3eb5565a4a6.png"
+  },
+  "sourceFolders": {},
+  "lastSourceFolder": ""
+}

@@ -1,0 +1,134 @@
+/* ==========================================================================
+   Bullet Depth Markers
+
+   Bullets are styled by NESTING DEPTH, not by which character is in the file.
+   That is forced rather than chosen: Reading view compiles `-`, `*` and `+`
+   into identical <ul><li> elements, so the character is absent from the DOM.
+   It is also harmless — the plugin keeps depth and marker in lockstep, so
+   "style by depth" and "style by character" describe the same result. A useful
+   consequence: changing the marker sequence setting needs no CSS change.
+
+   Cycle:  depth 1 ● disc   depth 2 ○ circle   depth 3 ▪ square   depth 4 ● …
+   ========================================================================== */
+
+
+/* --- Live Preview ---------------------------------------------------------
+   Obsidian tags each line `HyperMD-list-line-N` (N = depth, built at runtime)
+   and draws the bullet with `.list-bullet:after`. That rule reads every visual
+   property from a custom property EXCEPT background-color, which is hardcoded
+   to var(--list-marker-color) — so hollow bullets need one direct override.
+
+   Depths 1, 4 and 7 need no rules: filled disc is already the default. */
+
+/* ○ hollow circle — depths 2, 5, 8
+   Deliberately does NOT set --list-bullet-size, so it inherits Obsidian's
+   default 0.3em and matches the parent dot. The paired :after rule below must
+   set box-sizing explicitly — see the note there. */
+.markdown-source-view.mod-cm6 .HyperMD-list-line-2,
+.markdown-source-view.mod-cm6 .HyperMD-list-line-5,
+.markdown-source-view.mod-cm6 .HyperMD-list-line-8 {
+  --list-bullet-border: 1px solid var(--list-marker-color);
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line-2 .list-bullet:after,
+.markdown-source-view.mod-cm6 .HyperMD-list-line-5 .list-bullet:after,
+.markdown-source-view.mod-cm6 .HyperMD-list-line-8 .list-bullet:after {
+  background-color: transparent;
+
+  /* Required, and easy to miss: Obsidian's reset is `* { box-sizing: border-box }`,
+     which does not match pseudo-elements — and box-sizing is not inherited. So
+     this :after is content-box, and without this line the 1px border is ADDED to
+     the 0.3em, rendering the child bullet ~40% wider than its parent. */
+  box-sizing: border-box;
+}
+
+/* ▪ square — depths 3, 6, 9
+   Slightly under the 0.3em default on purpose: a square covers ~27% more area
+   than a circle of the same diameter (4/π), so matching the number would make
+   the deepest level read as the heaviest. 0.26em matches its visual weight. */
+.markdown-source-view.mod-cm6 .HyperMD-list-line-3,
+.markdown-source-view.mod-cm6 .HyperMD-list-line-6,
+.markdown-source-view.mod-cm6 .HyperMD-list-line-9 {
+  --list-bullet-radius: 0;
+  --list-bullet-size: 0.26em;
+}
+
+
+/* --- Reading view ---------------------------------------------------------
+   Real nested <ul>, so descendant selectors give depth directly.
+
+   Two things to work around:
+
+   1. Obsidian's normalize layer forces `list-style-type: disc` on every nested
+      list (`ul ul, ol ul, ol ol ul, ...`), overriding the browser's own
+      circle/square cascade. These selectors carry a class plus several element
+      names, so they outrank it.
+
+   2. Ordered lists occupy a depth level in the plugin's model, so the
+      selectors count `ol` ancestors too. Without that, a bullet nested under
+      `1.` would be styled one level shallower than its actual marker.
+
+   CSS cannot express an infinite cycle; unrolled to 9 levels. */
+
+.markdown-rendered ul > li {
+  list-style-type: disc;
+}
+
+/* depth 2 */
+.markdown-rendered :is(ul, ol) ul > li {
+  list-style-type: circle;
+}
+
+/* depth 3 */
+.markdown-rendered :is(ul, ol) :is(ul, ol) ul > li {
+  list-style-type: square;
+}
+
+/* depth 4 */
+.markdown-rendered :is(ul, ol) :is(ul, ol) :is(ul, ol) ul > li {
+  list-style-type: disc;
+}
+
+/* depth 5 */
+.markdown-rendered :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) ul > li {
+  list-style-type: circle;
+}
+
+/* depth 6 */
+.markdown-rendered :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) ul > li {
+  list-style-type: square;
+}
+
+/* depth 7 */
+.markdown-rendered :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) ul > li {
+  list-style-type: disc;
+}
+
+/* depth 8 */
+.markdown-rendered :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) ul > li {
+  list-style-type: circle;
+}
+
+/* depth 9 */
+.markdown-rendered :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) :is(ul, ol) ul > li {
+  list-style-type: square;
+}
+
+/* Task lists draw their own checkbox; leave their marker suppressed. */
+.markdown-rendered ul > li.task-list-item {
+  list-style-type: none;
+}
+
+
+/* --- Settings tab --------------------------------------------------------- */
+
+.bdm-setting-error {
+  display: none;
+  color: var(--text-error);
+  font-size: var(--font-ui-smaller);
+  margin-bottom: var(--size-4-2);
+}
+
+.bdm-setting-error.is-visible {
+  display: block;
+}

@@ -1,0 +1,83 @@
+{
+  "cameras": {},
+  "inkSizes": {
+    "pen": 0.936,
+    "highlighter": 1
+  },
+  "inkColors": {
+    "pen": "#2f8f5b",
+    "highlighter": "#a9e34b"
+  },
+  "pressureSensitivity": false,
+  "inkSmoothing": true,
+  "inkAdaptsToTheme": false,
+  "inkReadableInExports": true,
+  "inkPdfColorMode": "darken",
+  "pageOwners": {
+    "6dd2e096-b97d-4047-8b9d-52da784ac5e4": "Álgebra lineal práctica primer tema.md",
+    "02af3788-ee23-420f-bb9a-f195003e0c69": "Álgebra lineal/Ejercicios/Tema 1/Álgebra línea prueba - 1.15.md",
+    "2b06fbaa-69fe-45f8-9fea-be6e1ff8a078": "Álgebra lineal/Ejercicios/Tema 1/Álgebra línea prueba - 1.15 y 1.16 no inventado.md",
+    "edb05560-1acc-4f2e-9d51-a701d61b90fa": "Álgebra lineal/Ejercicios/Tema 1/Álgebra lineal prueba - 1.9.md",
+    "139def87-dcac-417f-ac60-e4dc2638ae07": "Álgebra lineal/Ejercicios/Tema 1/Álgebra lineal prueba  - 1.14.md",
+    "aead222a-c19e-45f6-9c3a-ade17c1b01f3": "Álgebra lineal/Ejercicios/Tema 1/Ejercicios álgebra 28 sept.md",
+    "f45ae139-1d1a-4faa-92f7-170564ac6b8a": "Álgebra lineal/Ejercicios/Tema 1/Ejercicios álgebra 23 sept.md",
+    "fbccebef-f043-405f-9866-15311604bd23": "Álgebra lineal/Ejercicios/Tema 1/Ejercicios clase álgebra 23-9.md",
+    "9b06dfe1-6a3f-4e87-8b97-208f907e05d8": "Tema 2 ejercicios computadores.md",
+    "1aaffc93-6793-4498-a4f4-9989c8f49bf1": "Tecnología de computadores/Ejercicios/Hoja 1 problemas básicos computadores.md",
+    "bc57f97e-e754-4ddf-8eec-3f6b74e2dcd7": "Práctica para parcial de cálculo - 2.2 y 2.3.md",
+    "46aeebcd-65cf-4d62-b0fc-5c797ba2ca05": "Dibujitos Olivia.md",
+    "358565f0-9d82-478c-a7cc-946b682567f8": "Cálculo/Ejercicios/Práctica examen parcial cálculo - 2.7 a.1.md",
+    "87fffe66-01cb-4c08-9198-7af30cd2f721": "Cálculo/Ejercicios/Hoja 1 Cálculo.md",
+    "e00d28f4-8174-4176-bba7-c8f5fd787402": "Cálculo/Ejercicios/Ejercicios clase cálculo.md",
+    "b0d816fb-86ef-4fff-b6ca-6f399123d32e": "Calc_P2.1.md"
+  },
+  "eraserRadiusPx": 18,
+  "mouseInk": false,
+  "strokePrediction": true,
+  "booxMode": false,
+  "einkHintOffered": false,
+  "scribbleHintOffered": true,
+  "paperStyle": "none",
+  "extendCanvasWhileScrolling": true,
+  "penTools": "show",
+  "eraserMode": "stroke",
+  "penReticle": true,
+  "shapeSnap": true,
+  "devDiagnostics": false,
+  "slidesInk": true,
+  "colorSizeCommands": false,
+  "penPresets": [
+    {
+      "tool": "pen",
+      "hex": "#cf3040",
+      "name": "red",
+      "size": 0.891
+    },
+    {
+      "tool": "pen",
+      "hex": "#000000",
+      "name": "black",
+      "size": 0.936
+    },
+    {
+      "tool": "pen",
+      "hex": "#2f8f5b",
+      "name": "green",
+      "size": 0.936
+    }
+  ],
+  "toolbarCorner": "bottom-center",
+  "stripFoldOrder": [
+    "handwriting:pen-ink-toggle",
+    "handwriting:inline-tool-pan",
+    "handwriting:paste-ink",
+    "editor:redo",
+    "handwriting:copy-selected-ink",
+    "handwriting:inline-tool-space"
+  ],
+  "inkFolder": ".handwriting",
+  "lastSeenVersion": "1.4.21",
+  "savedViews": [],
+  "noteZoomControls": "auto",
+  "barsRestore": null
+}
