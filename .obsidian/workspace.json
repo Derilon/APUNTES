@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cálculo/Teoría/Sucesiones y series.md",
+                "file": "Tecnología de computadores/Teoría/Especificación de sistemas combinacionales.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sucesiones y series"
+              "title": "Especificación de sistemas combinacionales"
             }
           }
         ],
@@ -203,6 +203,7 @@
   "active": "406135e05536d2b1",
   "lastOpenFiles": [
     "Cálculo/Teoría/Sucesiones y series.md",
+    "gitignore",
     "Matemática discreta/Teoría/Conjuntos, funciones, etc....md",
     "Calc_P2.1.md",
     "Calc_P2.1.ink.pdf",
@@ -233,7 +234,6 @@
     "Álgebra lineal/Ejercicios/Álgebra lineal prueba - 1.9.md",
     "Álgebra lineal/Ejercicios/Álgebra lineal prueba - 1.9.ink.pdf",
     "Tema 2 ejercicios computadores.md",
-    "Kahoot computadores.md",
     "Cálculo/Ejercicios/Práctica examen parcial cálculo - 2.7 a.1.ink.pdf",
     "Tecnología de computadores/Teoría/Material Especificación de sistemas combinacionales/Pasted image 20260924181808.png",
     "Tecnología de computadores/Teoría/Material Especificación de sistemas combinacionales/Pasted image 20260922184713.png",
@@ -242,7 +242,6 @@
     "Tecnología de computadores/Teoría/Material Especificación de sistemas combinacionales/Pasted image 20260924184615.png",
     "Sin título.base",
     "Cálculo/Ejercicios",
-    "Álgebra lineal/Ejercicios",
     "Tecnología de computadores/Teoría/Pasted image 20260921123057.png",
     "Pasted image 20260921130808.png",
     "Untitled.canvas",
