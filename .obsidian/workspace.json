@@ -23,12 +23,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tecnología de computadores/Teoría/Especificación de sistemas combinacionales.md",
+                "file": "Cálculo/Teoría/Sucesiones y series.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Especificación de sistemas combinacionales"
+              "title": "Sucesiones y series"
             }
           }
         ],
@@ -202,6 +202,11 @@
   },
   "active": "406135e05536d2b1",
   "lastOpenFiles": [
+    "Cálculo/Teoría/Números y conjuntos.md",
+    "Tecnología de computadores/Teoría/Representación digital de la información.md",
+    "Tecnología de computadores/Teoría/Especificación de sistemas combinacionales.md",
+    "Tema 1 computadores - Práctica parcial.md",
+    "Ejercicio 11 tema 2 conmutadores.md",
     "subir.sh",
     "Cálculo/Teoría/Sucesiones y series.md",
     "gitignore",
@@ -226,15 +231,11 @@
     "Álgebra lineal/Ejercicios/Tema 1/Álgebra línea prueba - 1.15.md",
     "Álgebra lineal/Ejercicios/Tema 1",
     "Álgebra lineal/Ejercicios/Álgebra línea prueba - 1.15 no inventado.md",
-    "Cálculo/Teoría/Números y conjuntos.md",
     "Álgebra lineal/Teoría/Matrices.md",
     "Álgebra lineal/Ejercicios/Álgebra línea prueba - 1.15.md",
     "Álgebra lineal/Ejercicios/Álgebra línea prueba - 1.15.ink.pdf",
-    "Álgebra lineal/Ejercicios/Álgebra lineal prueba  - 1.14.md",
     "Álgebra lineal/Ejercicios/Álgebra lineal prueba  - 1.14.ink.pdf",
-    "Álgebra lineal/Ejercicios/Álgebra lineal prueba - 1.9.md",
     "Álgebra lineal/Ejercicios/Álgebra lineal prueba - 1.9.ink.pdf",
-    "Tema 2 ejercicios computadores.md",
     "Cálculo/Ejercicios/Práctica examen parcial cálculo - 2.7 a.1.ink.pdf",
     "Tecnología de computadores/Teoría/Material Especificación de sistemas combinacionales/Pasted image 20260924181808.png",
     "Tecnología de computadores/Teoría/Material Especificación de sistemas combinacionales/Pasted image 20260922184713.png",
@@ -242,7 +243,6 @@
     "Tecnología de computadores/Teoría/Material Especificación de sistemas combinacionales/Pasted image 20260924184849.png",
     "Tecnología de computadores/Teoría/Material Especificación de sistemas combinacionales/Pasted image 20260924184615.png",
     "Sin título.base",
-    "Cálculo/Ejercicios",
     "Tecnología de computadores/Teoría/Pasted image 20260921123057.png",
     "Pasted image 20260921130808.png",
     "Untitled.canvas",

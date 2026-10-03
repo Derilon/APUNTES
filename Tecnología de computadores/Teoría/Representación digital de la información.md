@@ -61,7 +61,7 @@ Toda la información se tiene que codificar en binario.
 **Hexadecimal como binario compacto**
 ‌	Codificación en hexadecimal ${}0\rightarrow F \equiv 15 {}$
 	$$
-		 \underset{nibble}{\underline{0001}}\ \underline{0011}\ \underline{1101} = 13D \equiv 13D\equiv 0x{13}D
+		 \underset{nibble}{\underline{0001}}\ \underline{0011}\ \underline{1101} = 13D \equiv 13Dh\equiv 0x{13}D
 	$$
 	
 **Codificaciones alfanuméricas - ASCII**

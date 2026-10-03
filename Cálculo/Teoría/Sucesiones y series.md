@@ -70,3 +70,17 @@ $$
 \infty & si\quad 0\leq p\leq 1 \\
 \text{converge  } & si\quad p>1 
 \end{cases}$$
+
+**Series absolutamente convergente**
+	- ${}\sum \left| a_{n} \right|<\infty\implies \sum a_{n}<\infty{}$
+	- Definición:
+		* ${}\sum a_{n}{}$ es absolutamente convergente si ${}\sum \left| a_{n} \right|<\infty{}$
+		* ${}\sum a_{n}{}$ es condicionalmente convergente si ${}\sum a_{n} < \infty, \sum \left| a_{n} \right|=+\infty{}$
+
+**Series telescópicas**
+	- Un método que se basa en hallar sumas parciales que se cancelen descomponiendo una fracción 
+		* Ej: ${}\sum \frac{1}{n(n+1)}=\sum \frac{A}{n}+\frac{B}{n+1}\to{}$ Las sumas parciales se cancelan así que da el primer término más el último
+
+**Criterios de convergencia**
+	- Comparación por cociente: rellenar en casa
+	- 

@@ -1,4 +1,4 @@
-**Sistemas combinacionales**
+‌	**Sistemas combinacionales**
 	- Para la misma entrada se produce la misma salida 
 	- Dominio, E: conjunto discreto de valores que puede tomar la entrada
 	- Codominio, S: conjunto discreto de valores que puede tomar la salida

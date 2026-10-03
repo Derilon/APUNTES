@@ -5,7 +5,7 @@
     "highlighter": 1
   },
   "inkColors": {
-    "pen": "#2f8f5b",
+    "pen": "#000000",
     "highlighter": "#a9e34b"
   },
   "pressureSensitivity": false,
@@ -25,13 +25,15 @@
     "9b06dfe1-6a3f-4e87-8b97-208f907e05d8": "Tema 2 ejercicios computadores.md",
     "1aaffc93-6793-4498-a4f4-9989c8f49bf1": "Tecnología de computadores/Ejercicios/Hoja 1 problemas básicos computadores.md",
     "bc57f97e-e754-4ddf-8eec-3f6b74e2dcd7": "Práctica para parcial de cálculo - 2.2 y 2.3.md",
+    "5ed17b94-063b-4afd-ab3e-c8c6d9f73403": "Ejercicio 11 tema 2 conmutadores.md",
     "46aeebcd-65cf-4d62-b0fc-5c797ba2ca05": "Dibujitos Olivia.md",
     "358565f0-9d82-478c-a7cc-946b682567f8": "Cálculo/Ejercicios/Práctica examen parcial cálculo - 2.7 a.1.md",
     "87fffe66-01cb-4c08-9198-7af30cd2f721": "Cálculo/Ejercicios/Hoja 1 Cálculo.md",
     "e00d28f4-8174-4176-bba7-c8f5fd787402": "Cálculo/Ejercicios/Ejercicios clase cálculo.md",
-    "b0d816fb-86ef-4fff-b6ca-6f399123d32e": "Calc_P2.1.md"
+    "b0d816fb-86ef-4fff-b6ca-6f399123d32e": "Calc_P2.1.md",
+    "ccfe568a-6290-4f07-b10a-39a288437340": "Tema 1 computadores - Práctica parcial.md"
   },
-  "eraserRadiusPx": 18,
+  "eraserRadiusPx": 17,
   "mouseInk": false,
   "strokePrediction": true,
   "booxMode": false,
