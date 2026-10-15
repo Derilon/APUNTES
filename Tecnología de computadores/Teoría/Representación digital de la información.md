@@ -129,7 +129,7 @@ Toda la información se tiene que codificar en binario.
 	- En punto fijo, existe un error ya que solo se pueden representar un subconjunto de racionales existentes dentro del rango y el resto se representan de forma aproximada. En punto fijo, la resolución es la diferencia entre dos números consecutivos ${}\to\Delta=2^{-m}{}$
 	
 **Modos de redondeo**
-	- Al más cercano: Error máximo ${}=\frac{\Delta}{2}=2^{-(m-1)}{}$
+	- Al más cercano: Error máximo ${}=\frac{\Delta}{2}=2^{-(m+1)}{}$
 	- Hacia cero: Error máximo ${}=\Delta{}$
 	- Hacia ${}+\infty{}$: Error máximo ${}=\Delta{}$
 	- Hacia ${}-\infty{}$: Error máximo ${}=\Delta{}$

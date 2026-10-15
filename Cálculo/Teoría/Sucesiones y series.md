@@ -25,11 +25,22 @@ $$
 		* El límite es el supremo del conjunto ${}\{a_{n}|n \in \mathbb{N}\}{}$ (Ánalogo con decreciente, acotada inferiormente)
 	- Monóntona: o bien creciente o bien decreciente
 	- Nota: hay que comprobar si las sucesiones son decrecientes o crecientes y si estan acotadas superiormente. Ejemplo sucesión que da el número ${}e \to \left( 1+\frac{1}{n} \right)^{n}:\lim_{ n \to \infty }\left( 1+\frac{1}{n} \right)^{n}=e{}$ 
+	- Teorema de Bolzano-Wierstrass: Toda sucesión acotada tiene uan subsucesión convergente
+
+**Sucesiones de Cauchy**
+	- Definición: Una sucesión ${}a_{n}{}$ es de Cauchy si ${}\forall \epsilon > 0 \exists n_{0}\in \mathbb{N}|\forall n, m\geq n_{0}, \left| a_{n}-a_{m} \right|<\epsilon{}$
+	- Sus términos se acercan entre sí sin mencionar ningún límite
+	- Cualquier sucesión convergente es de Cauchy
+	- Teorema de completitud en ${}\mathbb{R}{}$. Toda sucesión de Cauchy de números reales es convergente. 
 
 **Sucesiones recurrentes**
 	- Cada término se define a partir del anterior. Ejemplos:
 		* Sucesión aritmética: ${}a_{1};a_{n+1}=a_{n}+d{}$
 		* Sucesión de Fibonacci: ${}a_{1}=a_{2}=1,a_{n+1}=a_{n}+a_{n-1}{}$
+
+**Sucesiones de vectores**
+	- Una sucesión de vectores es una sucesión ${}(a_{n})_{n}{}$ donde cada término es un elemento de ${}\mathbb{R}^{n}{}$
+	- Convergencia: ${}(a_{n})\to L\text{ si }||a_{n}-L|| \to 0\text{ cuando }n\to \infty{}$
 
 **Subsucesiones**
 	- Sucesión que se obtiene de otra seleccionando términos sin cambiar el orden
@@ -71,16 +82,28 @@ $$
 \text{converge  } & si\quad p>1 
 \end{cases}$$
 
+**Series telescópicas**
+	- Un método que se basa en hallar sumas parciales que se cancelen descomponiendo una fracción 
+		* Ej: ${}\sum \frac{1}{n(n+1)}=\sum \frac{A}{n}+\frac{B}{n+1}\to{}$ Las sumas parciales se cancelan así que da el primer término más el último
+
 **Series absolutamente convergente**
 	- ${}\sum \left| a_{n} \right|<\infty\implies \sum a_{n}<\infty{}$
 	- Definición:
 		* ${}\sum a_{n}{}$ es absolutamente convergente si ${}\sum \left| a_{n} \right|<\infty{}$
 		* ${}\sum a_{n}{}$ es condicionalmente convergente si ${}\sum a_{n} < \infty, \sum \left| a_{n} \right|=+\infty{}$
-
-**Series telescópicas**
-	- Un método que se basa en hallar sumas parciales que se cancelen descomponiendo una fracción 
-		* Ej: ${}\sum \frac{1}{n(n+1)}=\sum \frac{A}{n}+\frac{B}{n+1}\to{}$ Las sumas parciales se cancelan así que da el primer término más el último
+	- Criterio de Leibnitz: ${}a_{n}\geq 0\forall n,(a_{n})_{n}\text{ decreciente y }\lim_{ n}a_{n}=0 \implies\sum(-1)^{n}a_{n}{}$
 
 **Criterios de convergencia**
-	- Comparación por cociente: rellenar en casa
-	- 
+	- Comparación por cociente: ${}\sum a_{n},\sum b_{n}{}$ sea ${}\lim\frac{a_{n}}{b_{n}}= c\in \mathbb{R}\cup \left\{ \infty \right\}{}$
+		1. Si ${}c \in \mathbb{R}, c\neq 0 \implies{}$ entonces ${}\sum a_{n}<\infty \Leftrightarrow \sum b_{n}< \infty{}$
+		2. Si ${}c=0{}$, y ${}\sum b_{n}{}$ convergue ${}\Rightarrow \sum a_{n}{}$ converge
+		3. Si ${}c=0{}$, y ${}\sum a_{n}{}$ diverge${}\Rightarrow \sum b_{n}{}$ diverge
+			+ Si ${}c=\infty{}$, se aplica lo anterior a ${}\lim\frac{a_{n}}{b_{n}}{}$
+	- Criterio del cociente: ${}\sum a_{n}{}$ con ${}a_{n}>0\forall n;\lim_{ n }\frac{a_{n+1}}{a_{n}}=\alpha{}$
+		1. Si ${}\alpha<1\implies \sum a_{n}< \infty{}$
+		2. Si ${}\alpha>1 \implies \sum a_{n}=\infty{}$
+		3. Si ${}\alpha=1{}$ puede pasar cualquier cosa
+	- Criterio de la raíz: ${}\sum a_{n};\lim_{ n }\sqrt[n]{ \left| a_{n} \right| }=\rho{}$
+		1. Si ${}0\leq \rho<1\implies \sum a_{n}<\infty{}$
+		2. Si ${}\rho>1{}$ o ${}\rho=+\infty\implies \sum a_{n}=\infty{}$
+		3. Si ${}\rho=1{}$ puede pasar cualquier cosa

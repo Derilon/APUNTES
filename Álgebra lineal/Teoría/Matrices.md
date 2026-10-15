@@ -68,3 +68,31 @@
 		* Si A tiene inversa, ${}(A^{t})^{-1}=(A^{-1})^{t}{}$
 
 **Álgebra de matrices**
+	- Tener en cuenta la no-conmutatividad
+
+**Determinantes**
+	- completar en casa
+
+**Estudiar sistemas**
+	- Completar en casa
+
+**Resolución de sistemas de ecuaciones lineales**
+	- Método de Gauss
+		* Se toma la matriz ampliada
+		* Hacemos operaciones elementales por filas
+		* Haciendo esto obtenemos un sistema equivalente
+		* El objetivo es obtener una matriz escalonada
+	- Dada una matriz, hay una única matriz escalonada reducida equivalente por filas. Se llama forma de Hermite de la matriz
+	- Dos matrices son equivalentes por filas si y solo si tienen la misma forma de Hermite
+	- Método de Cramer
+		* Si ${}Ax=B{}$ es tipo Cramer
+		* ${}x_{i}=\frac{\left| A_{i} \right|}{\left| A \right|} \to A_{i}{}$ es la matriz que se obtiene de sustituir las columnas i por los términos independientes b.  
+		* Nota: si hay un parámetro, usar Cramer en lugar de Gauss
+		* Se puede operar con sistemas que no son tipo Cramer como si lo fuesen:
+			1. Determinar el rango de A
+			2. Tomar como matriz del sistema la que me de el rango máximo (las que sobran se eliminan por redundantes) y las variables que no participan en el rango se despejan como términos independientes (es decir, se sustituyen en la columna i)
+
+**Sistemas homogéneos**
+	- Un sistema lineal es homogéneo si todos los términos independientes son 0
+		* Una solución siempre es 0
+		* Si es CD ${}\to x_{i}=0\forall i{}$

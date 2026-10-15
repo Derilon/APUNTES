@@ -62,7 +62,7 @@ $$
 $$
 	- Multiplicación en forma trigonométrica
 $$
-\begin{array}{1}
+\begin{array}{}
 Si \ z=\rho(\cos \theta+\sin i\theta),z'=\rho'(\cos \theta'+\sin i\theta')\Rightarrow \\
 z*z'=\rho(\cos \theta+\sin i\theta)*\rho'(\cos \theta'+\sin i\theta')= \\
 \rho \rho'[\cos(\theta+ \theta')+\sin(\theta+\theta')i] \\ \\
@@ -124,11 +124,12 @@ $$
 ‌	$$
 **Raíces de números complejos**
 	- Dado ${}z \in \mathbb{C}{}$ decimos que ${}w \in \mathbb{C}{}$ es una raíz n-ésima de z
-		- Todo número complejo ${}z=\rho(\cos \theta+\sin\theta){}$ distinto de 0 tiene exáctamente n raíces n-esimas, dadas por: 
+		* Todo número complejo ${}z=\rho(\cos \theta+\sin\theta){}$ distinto de 0 tiene exáctamente n raíces n-esimas, dadas por: 
  $$
-‌	 \begin{gather}
- z=\rho(\cos \theta+\sin \theta)=w^{n} \\
- |w|=\sqrt[n]{w}\\
- arg(w)=\frac{\theta+2k\pi}{n}\to k=(0,n)
+\begin{gather}
+ z=\rho(\cos \theta+i\sin \theta)=w^{n} \\
+ |w|=\sqrt[n]{\rho}\\
+ arg(w)=\frac{\theta+2k\pi}{n}\to k\in [0,n-1],k\in \mathbb{N}
  \end{gather}
 	  $$
+	  
