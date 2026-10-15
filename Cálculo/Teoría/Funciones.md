@@ -27,3 +27,6 @@
 		* ${}f{}$ es continua si es continua en todos los puntos de su dominio
 	- La composición de aplicaciones continuas es continua
 
+**Teoremas importantes**
+	- ${}a,b\in \mathbb{R},a<b,f:[a,b]\to \mathbb{R} \text{ continua }\implies{}$${}f{}$ está acotada y  alcanza su máximo y su mínimo
+

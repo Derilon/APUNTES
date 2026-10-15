@@ -7,6 +7,15 @@
 	- ${}A=B\Leftrightarrow (A \subseteq B \wedge B \subseteq A){}$
 	- La relación ${}\subseteq{}$ es reflexiva y transitiva.
 	- Axioma de separación: ${}B = \{ x \in A : P(x) \}{}$
+	- ${}A\oplus B= (A\cup B)\backslash(A\cap B){}$
+
+**Conjuntos y lógica**
+	- Obsérvese la siguiente correspondencia entre la teoría de conjuntos y la lógica
+		* Subconjunto ⇿ implicación (por la definición de la relación de subconjunto)
+		* Unión ⇿ disyunción (por la definición del operador de unión)
+		* Intersección ⇿ conjunción (por la definición del operador de intersección)
+		* Complemento ⇿ negación
+		* Diferencia simétrica ⇿ disyunción exclusiva
 
 **Familias de conjuntos**
 	- Una familia de conjuntos es un conjunto cuyos elementos son todos conjuntos
@@ -27,7 +36,7 @@
 	- Dados dos conjuntos S, T, su producto cartesiano , denotado ${}S\times T{}$ se define de la siguiente forma ${}S\times T=\{(a.b)|a \in S \wedge b \in T\}{}$
 
 **Identidades de conjuntos y álgebra de Boole**
-	 - Para conjuntos A, B y S: ${}A\subseteq S\wedge B\subseteq S\implies A\cap B\subseteq S \wedge \backslash A \subseteq S{}$, es decir, ${}A,B \in p(S)\implies A\cup b, A\cap B, \backslash A \in p(S){}$
+	 - Para conjuntos A, B y S: ${}A\subseteq S\wedge B\subseteq S\implies A\cap B\subseteq S \wedge \backslash A \subseteq S{}$, es decir, ${}A,B \in p(S)\implies A\cup B, A\cap B, \backslash A \in p(S){}$
 
 **Relaciones binarias**
 	- Una relación binaria R entre dos conjuntos A y B
@@ -38,8 +47,34 @@
 		* es decir, ${}R \subseteq A\times A\to R\in P(A\times A){}$
 		* También llamada relación homogénea
 		* Identidad sobre A${}\to A, id_{A}|\{(a,a)|a\in A\}\subseteq A\times A{}$
+	- Propiedades importantes. Una relación binaria R sobre un conjunto A es:
+‌	![[Pasted image 20261015122406.png|579]]
 
-Rellenar propiedades importantes, rellenar lo qie qiueda de relaciones binarias
+**Dominio, rango, composición y recíproca**
+	- ${}R\in p(A\times B):{}$
+		* ${}Dom(R)=\{a\in A|\exists b\in B:aRb\}\subseteq A{}$
+		* ${}Ran(R)=\{b\in B|\exists a\in A:aRb\}\subseteq B\to{}$ también llamado la imagen de A bajo R
+	- Composición de relaciones binarias ${}R\in p(A\times B){}$ y ${}S\in p(B'\times C){}$:
+		* Es la relación binaria ${}R\circ S\in p(A\times C){}$ definida como:
+			+ ${}R\circ S=\{(a,c)\in A\times C|\exists b\in B\cap B':aRb\wedge bSc\}{}$ (${}=\varnothing{}$ si ${}B\cap B'=\varnothing{}$)
+		* Propiedades de la operación de composición:
+			+ Asociatividad: ${}R\circ(S\circ T)=(R\circ S)\circ T{}$
+			+ Identidad por la izquierda: ${}id_{A}\circ R=R{}$
+			+ Identidad por la derecha: ${}R\circ id_{B}=R{}$
+			+ Potencia: ${}R^{n}=R\circ\dots\circ R{}$ (n veces)
+	- Traspuesta (o inversa) de una relación binaria ${}R\in p(A\times B){}$:
+		* Es la relación binaria ${}R^{-1}\in p(B\times A){}$ definida como:
+			+ ${}R^{-1}=\{(b,a)\in B\times A|aRb\}{}$, es decir, ${}bR^{-1}a{}$ si ${}aRb{}$
+		* Propiedades de la operación recíproca:
+			+ ${}Dom(R)=Ran(R^{-1}){}$ y ${}Dom(R^{-1})=Ran(R){}$
+			+ Conmutatividad inversa: ${}(R\circ S)^{-1}=S^{-1}\circ R^{-1}{}$
+
+**Relaciones n-arias**
+	- ${}R \subseteq A_1 \times A_2 \times \dots \times A_n{}$ es una relación n-aria $R$ entre los conjuntos ${}A_1, \dots, A_n{}$
+		* Es decir, es un subconjunto del producto cartesiano de dichos conjuntos
+		* Para ${}(a_1, a_2, \dots, a_n) \in R{}$ escribimos ${}R(a_1, a_2, \dots, a_n){}$
+	- El conjunto de todas las relaciones n-arias entre los conjuntos ${}A_1, \dots, A_n{}$
+		* es ${}p(A_1 \times A_2 \times \dots \times A_n){}$, el conjunto potencia de ${}A_1 \times A_2 \times \dots \times A_n{}$
 
 **Funciones totales y parciales**
 	- Una función de conjunto A en conjunto B es una relación binaria${}R\in p(A\times B)|{}$
@@ -50,5 +85,13 @@ Rellenar propiedades importantes, rellenar lo qie qiueda de relaciones binarias
 	- Una función total de conjunto A en conjunto B es una relación binaria ${}R\in p(A\times B){}$| cada elemento de A está relacionado con exactamente un elemento de B ${}\to \forall a\in A,\forall b,c\in V:((aRb\wedge aRc\Rightarrow b=c)\wedge \exists d\in B:aRd)\equiv \forall a\in A: \exists!b\in B:aRb{}$
 	- Una función parcial es una función que no es total
 	- Si ${}f:A\to V\text{ y }A'\subseteq A{}$, la restricción de${}f\text{ a }A{}$, denotada ${}f|_{A'}{}$ se define como ${}f|_{A'}:A'\to B\text{ con }f|_{A'}(a):f(a){}$
-	- Definiciones:
+	- Dos funciones ${}f,g:A\to B{}$ son iguales si las relaciones correspondientes son iguales, ya que denotan el mismo subconjunto del producto cartesiano ${}A\times B{}$
+		1. ${}f,g:A\to B{}$
+		2. ${}Dom(f)=Dom(g)=D\subseteq A{}$
+		3. ${}\forall x \in D: f=g{}$ comprobar en cada
+	- Los únicos operadores bien definidos para funciones son ${}\cap, \circ, \backslash{}$. Los demás pueden producir una relación que no es una función
+
+**Composición de funciones**
+	- La composición de funciones hereda la asociatividad de las relaciones. si ${}f:A\to B, g:B\to C\text{ y } h:C\to D\text{ son funciones con }\mathrm{Im}(f)\subseteq Dom(g)\text{ y }\mathrm{Im}(g)\subseteq Dom(h)\text{ entonces }(f \circ g)\circ h=f \circ (g\circ h){}$
+	- En discreta, ${}f\circ g(x)\equiv g(f(x)){}$ (contrario que en cálculo)
 
